@@ -353,6 +353,9 @@ address {
 }
 
 .button-rental {
+    display: block;
+    margin: 0 auto;
+    width: max-content;
     padding: 14px 32px;
     border: 1px solid rgba(251, 251, 251, 0.35);
     background-color: transparent;
@@ -363,6 +366,7 @@ address {
     line-height: 1.28571;
     letter-spacing: -0.02em;
     color: var(--color-white);
+    align-self: center;
 
-
+    margin-bottom: 80px;
 }
